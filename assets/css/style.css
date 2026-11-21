@@ -1207,3 +1207,41 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/* Main project slider */
+.portfolio-details-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Project navigation buttons */
+.portfolio-details-slider > .swiper-button-next,
+.portfolio-details-slider > .swiper-button-prev {
+  color: #0563bb;
+  background: rgba(255, 255, 255, 0.9);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.portfolio-details-slider > .swiper-button-next:after,
+.portfolio-details-slider > .swiper-button-prev:after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Project pagination */
+.portfolio-details-slider > .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+
+.portfolio-details-slider > .swiper-pagination .swiper-pagination-bullet-active {
+  background: #0563bb;
+}
+
+/* Inner image slider */
+.project-image-slider {
+  width: 100%;
+}
